@@ -68,6 +68,8 @@
 				units,
 				precision = L.Util.extend({}, defaultPrecision, precision);
 
+			var type = typeof isMetric;
+			
 			if (isMetric) {
 				units = ['ha', 'm'];
 				type = typeof isMetric;
